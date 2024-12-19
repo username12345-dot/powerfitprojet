@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-FITNESS - PowerFit</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Barre supérieure -->
+    <header>
+        <div class="top-bar">
+            <div class="top-bar-item">
+                <i class="fas fa-dumbbell"></i>
+                <span>1500+ Clubs</span>
+            </div>
+            <div class="top-bar-item">
+                <i class="fas fa-cogs"></i>
+                <span>Meilleur Équipement</span>
+            </div>
+            <div class="top-bar-item">
+                <i class="fas fa-users"></i>
+                <span>Entraînez-vous entre amis</span>
+            </div>
+            <div class="top-bar-item">
+                <i class="fas fa-mobile-alt"></i>
+                <span>Application PowerFit</span>
+            </div>
+        </div>
+        <!-- Barre de navigation -->
+        <div class="container">
+            <img src="image/logo.png" alt="Logo PowerFit" class="site-logo">
+            <h1>PowerFit</h1>
+            <nav>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#abonnements">Abonnements</a></li>
+                    <li><a href="#informations">Informations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <button class="subscribe-button">S'INSCRIRE</button>
+                <span>MON POWERFIT</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section Héros -->
+    <section class="hero" id="accueil">
+        <h2 class="hero-title">Votre partenaire fitness en ligne et en salle</h2>
+        <p class="hero-subtitle">Rejoignez-nous pour atteindre vos objectifs de santé et de forme physique avec E-FITNESS.</p>
+    </section>
+
+    <!-- Services -->
+    <section class="features" id="services">
+        <h2>Pourquoi choisir PowerFit ?</h2>
+        <div class="feature-list">
+            <div class="feature">
+                <i class="fas fa-chart-line"></i>
+                <h3>Programmes personnalisés</h3>
+                <p>Des cours adaptés à vos objectifs et à votre niveau, accessibles en direct ou en différé.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-users"></i>
+                <h3>Communauté interactive</h3>
+                <p>Rejoignez une communauté active et échangez avec des coachs et autres membres.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-medal"></i>
+                <h3>Suivi des performances</h3>
+                <p>Analysez vos progrès grâce à des outils avancés et des retours personnalisés.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Abonnements -->
+    <section class="features" id="abonnements">
+        <h2>Nos Abonnements</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Abonnement</th>
+                    <th>Prix</th>
+                    <th>Bonus</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mensuel</td>
+                    <td>30 €</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Trimestriel</td>
+                    <td>80 €</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Annuel</td>
+                    <td>300 €</td>
+                    <td>-</td>
+                </tr>
+                <tr style="background-color: gold; color: #333; font-weight: bold;">
+                    <td>Premium</td>
+                    <td>500 €</td>
+                    <td>
+                        Accès à la cantine avec menus personnalisés, livraison incluse, 
+                        suivi prioritaire avec un coach dédié, et accès illimité aux cours en ligne.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Informations -->
+    <section class="features" id="informations">
+        <h2>Informations</h2>
+        <div class="feature-list">
+            <div class="feature">
+                <i class="fas fa-utensils"></i>
+                <h3>Cantine PowerFit</h3>
+                <p>Nous proposons une cantine spécialisée pour atteindre vos objectifs : perte de poids ou prise de muscle. Des menus équilibrés et adaptés sont disponibles chaque jour.</p>
+                <p>Option de livraison disponible avec un abonnement premium.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-video"></i>
+                <h3>Cours en ligne adaptés</h3>
+                <p>Profitez de cours en ligne personnalisés selon vos disponibilités. Que vous soyez débutant ou confirmé, nos coachs vous accompagnent à chaque étape.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-chart-line"></i>
+                <h3>Suivi personnalisé</h3>
+                <p>Analysez vos performances en temps réel grâce à des outils avancés et obtenez des retours réguliers.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <form>
+            <h2>Contactez-nous</h2>
+            <div class="form-group">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" placeholder="Votre nom">
+            </div>
+            <div class="form-group">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="Votre email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="6" placeholder="Votre message"></textarea>
+            </div>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 PowerFit - E-FITNESS. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
